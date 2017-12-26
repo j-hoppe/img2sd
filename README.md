@@ -16,12 +16,14 @@ This could also be done with "`dd`" command, but then block offset and sizes mus
 
 ## Compile
 Compile tested under Ubuntu. The "libxml" package is needed.
-Install with `sudo apt-get install libxml2-dev`, see `makefile` for more info.
+Install with
+    sudo apt-get install libxml2-dev
+See `makefile` for more info.
 
 ##  Operation
 The build-in help should say all:
 
-`
+```
 joerg@vmubuprog:~/progs/RetroCmp/img2sd$ ./img2sd
 img2sd - moves SimH disk images from and to SCSI2SD SDcard
    version: Dec 26 2017 08:49:33
@@ -64,4 +66,4 @@ img2sd  --help --verbose --device <device_filename> --xml <config_filename>
           First write, then compare
 
 Option names are case insensitive.
-`
+`` `
