@@ -68,4 +68,4 @@ img2sd  --help --verbose --device <device_filename> --xml <config_filename>
           First write, then compare
 
 Option names are case insensitive.
-`` `
+```
