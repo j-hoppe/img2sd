@@ -17,7 +17,9 @@ This could also be done with "`dd`" command, but then block offset and sizes mus
 ## Compile
 Compile tested under Ubuntu. The "libxml" package is needed.
 Install with
+
     sudo apt-get install libxml2-dev
+
 See `makefile` for more info.
 
 ##  Operation
